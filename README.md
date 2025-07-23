@@ -40,7 +40,7 @@
 ## 🧪 Environment Setup
 > Deployed and onboarded a Windows 10 Azure VM to Microsoft Defender for Endpoint. Ensured telemetry was forwarded to Microsoft Sentinel’s Log Analytics Workspace.
 
-![Environment Setup](assets/images/setup.jpg)
+![VMBFD1](https://raw.githubusercontent.com/Samuel-Cavada/Scenario-1-Virtual-Machine-Brute-Force-Detection/main/images/VMBFD.jpg)
 
 ---
 
@@ -71,7 +71,7 @@ DeviceLogonEvents
 - Create incident automatically
 - Group alerts into single incident per 24 hours
 
-![Step 1](assets/images/step1.jpg)
+![VMBFD4](https://raw.githubusercontent.com/Samuel-Cavada/Scenario-1-Virtual-Machine-Brute-Force-Detection/main/images/VMBFD4.jpg)
 
 ---
 
@@ -80,7 +80,7 @@ DeviceLogonEvents
 > - Alert was triggered and incident created in Sentinel  
 > - Confirmed incident listed under: **Threat Management → Incidents**
 
-![Step 2](assets/images/step2.jpg)
+![VMBFD1](https://raw.githubusercontent.com/Samuel-Cavada/Scenario-1-Virtual-Machine-Brute-Force-Detection/main/images/VMBFD1.jpg)
 
 ---
 
@@ -115,6 +115,8 @@ DeviceLogonEvents
 - Suggested automation of RDP NSG restriction via Azure Policy  
 - Closed incident as **True Positive**
 
+![VMBFD6](https://raw.githubusercontent.com/Samuel-Cavada/Scenario-1-Virtual-Machine-Brute-Force-Detection/main/images/VMBFD6.jpg)
+
 ---
 
 ### ✅ Step 4: Cleanup
@@ -122,7 +124,8 @@ DeviceLogonEvents
 > - Deleted Analytics Rule from **Configuration → Analytics**  
 > - Verified only MY rules and incidents were removed
 
-![Step 4](assets/images/step4.jpg)
+![VMBFD8](https://raw.githubusercontent.com/Samuel-Cavada/Scenario-1-Virtual-Machine-Brute-Force-Detection/main/images/VMBFD8.jpg)
+![VMBFD9](https://raw.githubusercontent.com/Samuel-Cavada/Scenario-1-Virtual-Machine-Brute-Force-Detection/main/images/VMBFD9.jpg)
 
 ---
 
